@@ -1,0 +1,69 @@
+.main{
+    background-color: rgba(22, 21, 21, 0.559);
+   
+    height: 100vh;
+}
+.userl{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+   
+    
+    color:rgb(13, 13, 13)
+}
+.lable1{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: left ;
+    font-weight: bold;
+}
+.lable2{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: left ;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.lable3{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: left ;
+    font-weight: bold;
+    margin-left: 1%;
+}
+.lable4{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: left ;
+    font-weight: bold;
+    margin-left: 4%;
+}
+.lable5{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: left ;
+    font-weight: bold;
+    margin-left: -1%;
+}
+.inputdata{
+    width: 350px;
+    height: 35px;
+    border-radius: 8px;
+    margin-left: 5%;
+    border-color: rgba(45, 41, 41, 0.466);
+    background-color: rgba(255, 253, 253, 0.567);
+}
+
+.btnsubmit{
+    font-family: "Poppins", sans-serif;;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 210px;
+    height: 50px;
+    background-color: rgba(28, 20, 20, 0.836);
+    font-size: 28px;
+    border-width: 1px;
+    border-color: gray;
+    align-items: center;
+    color: white;
+    margin-top: 3%;
+}
