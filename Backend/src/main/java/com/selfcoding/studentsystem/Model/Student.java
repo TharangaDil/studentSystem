@@ -5,6 +5,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+import java.util.Date;
+
 @Entity
 public class Student {
     @Id
@@ -12,6 +14,9 @@ public class Student {
     private int id;
     private String name;
     private String address;
+    private String grade;
+    private Date dob;
+    private int tel;
 
     public Student() {
     }
@@ -38,5 +43,29 @@ public class Student {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getGrade() {
+        return grade;
+    }
+
+    public void setGrade(String grade) {
+        this.grade = grade;
+    }
+
+    public Date getDob() {
+        return dob;
+    }
+
+    public void setDob(Date dob) {
+        this.dob = dob;
+    }
+
+    public int getTel() {
+        return tel;
+    }
+
+    public void setTel(int tel) {
+        this.tel = tel;
     }
 }
