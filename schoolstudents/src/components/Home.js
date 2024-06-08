@@ -2,16 +2,13 @@ import './CSS/main.css';
 import React from 'react';
 import logo from './img/logo.png';
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 
 
 
 export default function Home(){
-    const navigate = useNavigate();
+  
 
-    const goToMain = () => {
-        navigate('/main'); 
-    };
+   
   
    const[name,setName]=useState('');
    const[grade,setGrade]=useState('');
