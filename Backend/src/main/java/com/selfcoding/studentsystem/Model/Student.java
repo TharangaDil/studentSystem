@@ -1,11 +1,13 @@
 package com.selfcoding.studentsystem.Model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 import java.util.Date;
+
 
 @Entity
 public class Student {
@@ -15,6 +17,8 @@ public class Student {
     private String name;
     private String address;
     private String grade;
+    
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private Date dob;
     private int tel;
 
