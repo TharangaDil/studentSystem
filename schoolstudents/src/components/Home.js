@@ -32,7 +32,7 @@ export default function Home(){
       
         <div className='main'>
             <img src={logo}></img>
-           <div className='userl'>SCHOOL STUDENTS MANAGEMENT SYSTEM</div><br/><br/>
+           <div className='userl'>ADD A NEW STUDENT</div><br/><br/>
           
            <label className='lable1'>Student Name:</label>
            <input type='text'className='inputdata' value={name} onChange={(e)=>setName(e.target.value)}/><br/><br/>
