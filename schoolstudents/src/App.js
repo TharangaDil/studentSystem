@@ -8,14 +8,7 @@ import Studentlist from './components/Studentlist';
 function App() {
   return (
    <>
-     <Router>
-     <Routes>
-      <Route path='/home' element={<Home/>} />
-      <Route path='/first' element={<Mainpage/>} />
-      <Route path='/stulist' element={<Studentlist/>} />
-     </Routes>
-
-     </Router>
+     <Home></Home>
      
     
    </> 
