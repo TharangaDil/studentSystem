@@ -2,11 +2,21 @@ import './CSS/main.css';
 import React, { useState } from 'react';
 import logo from './img/logo.png';
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 
 
 export default function Studentlist(){
+    const navigate = useNavigate();
+    const gotoAdd = () => {
+     navigate('/home');
+    } 
+ 
+    const gotoHome = () =>{
+     navigate('/');
+    }
+    
     const[students,setStudents]=useState([]);
     useEffect(()=>{
         fetch("http://localhost:8080/student/getAll")
@@ -49,7 +59,8 @@ export default function Studentlist(){
             </table>
             </center>
         
-    
+            <button className='btnadd' onClick={gotoAdd} >Add Student</button>
+            <button className='btnlist' onClick={gotoHome} >Back To Home</button>
 
           
             

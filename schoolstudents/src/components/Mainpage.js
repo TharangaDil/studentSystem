@@ -11,6 +11,10 @@ export default function Mainpage(){
    const gotoAdd = () => {
     navigate('/home');
    } 
+
+   const gotoList = () =>{
+    navigate('/stulist');
+   }
  
 
 
@@ -21,8 +25,8 @@ export default function Mainpage(){
             <center><img src={logo} className='logo'></img></center>
            <div className='userl'>SCHOOL STUDENTS MANAGEMENT SYSTEM</div><br/><br/>
 
-           <button className='btnadd'  onClick={gotoAdd}>Add Student</button>
-           <button className='btnlist' >Students List</button>
+           <button className='btnadd' onClick={gotoAdd} >Add Student</button>
+           <button className='btnlist' onClick={gotoList} >Students List</button>
           
             
             

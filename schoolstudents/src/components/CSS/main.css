@@ -68,6 +68,9 @@
     color: white;
     margin-top: 3%;
 }
+.content{
+    text-align: center;
+}
 .btnadd{
     font-family: "Poppins", sans-serif;;
     font-weight: bold;
